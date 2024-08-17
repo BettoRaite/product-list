@@ -1,0 +1,17 @@
+.layout {
+  height: 30rem;
+  background-color: rgba(240, 248, 255, 0.8); /* AliceBlue with 80% opacity */
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid gainsboro;
+  transition: 0.3s all;
+}
+
+.layout:hover {
+  border: 1px solid gray;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.04);
+  background-color: rgb(224, 240, 255);
+}
